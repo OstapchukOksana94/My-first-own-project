@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	position: relative;
+	background-color: white;
+}
+
+li {
+	display: inline-block;
+
+}
+
+.header__nav-container {
+	padding: 30px 0 30px 50px;
+}
+
+.header__home,
+.header__about,
+.header__dropdown {
+	padding: 0 10px;
+	text-transform: uppercase;
+	border-right: 0.5px solid;
+	border-color: #230846;
+}
+
+
+.header__home-page,
+.header__about-us,
+.header__dropbutton {
+	color: #230846;
+	font-family: Courier New, monospace;
+	font-weight: lighter;
+	font-size: 17px;
+}
+
+
+.header__dropdown-content {
+	display: none;
+	position: absolute;
+	padding-top: 10px;
+	background-color: white;
+	box-shadow: 3px 3px 3px 0.5px rgba(0,0,0,0.3);
+	border-top: none;
+	width: 150px;
+}
+
+.header__dropdown:hover .header__dropdown-content {
+	display: block;
+	z-index: 1;
+}
+
+.header__drop-item {
+	display: block;
+	padding: 7px 10px;
+	color: #230846;
+	font-family: Courier New, monospace;
+	font-weight: lighter;
+	font-size: 17px;
+}
+
+.header__drop-item:hover {
+	background-color: #b094d4;
+}
+
+.intro {
+	background-image: url("img/eggpant.jpg");
+	width: 100%;
+	height: 330px;
+	color: white;
+	opacity: 0.8;
+}
